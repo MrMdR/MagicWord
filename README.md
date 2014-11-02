@@ -11,7 +11,7 @@ https://community.spark.io/t/tutorial-spark-cli-on-windows-01-oct-2014/3112
 
 Upload blink en voeg “Serial.println("Hi there! It works");” toe om te kijken of je seriele monitor alles goed ontvangt. 
 
-Heb een twitter account aan.
+Heb een twitter account.
 
 Maak een accound aan op www.thingsspeak.com
 
