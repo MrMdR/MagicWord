@@ -48,7 +48,7 @@ void connectToTwitter() {
 void readStatus() {
   Serial.println("Entering readStatus...");
   while (client.available()) {
-    Serial.println("Client is available!");
+    Serial.println("Client is available! I Found a letter");
     char ch = client.read(); //ch ontvang 1 letter
     //Serial.println("ch"+ch); // laat deze letter zien in de serial monitor
     MagicTwitterWord += ch; //het woord bouwt tie langzaam op door de nieuwe letter achter de voorgaande te plakken.
@@ -70,8 +70,8 @@ void readStatus() {
   }
   else {
     Serial.println("Didn't find a matching magic word."); //Didn't find the status
-   // Serial.println(MagicTwitterWord);
-   // Serial.println(MagicTwitterWord.length());
+    Serial.println("The (not so) magic word I found was: "+MagicTwitterWord);
+    Serial.println("Witch has "+MagicTwitterWord.length()+" letters");
   };
 }
 
