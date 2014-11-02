@@ -13,7 +13,7 @@ How To (NL)
 Instaleer en configureer je spark core en node.JS  <br>
 https://community.spark.io/t/tutorial-spark-cli-on-windows-01-oct-2014/3112 <br>
 
-Upload blink en voeg “Serial.println("Hi there! It works");” toe om te kijken of je seriele monitor alles goed ontvangt.   <hr>
+Upload blink en voeg "Serial.begin(9600); " en " Serial.println("Hi there! It works");" toe om te kijken of je seriele monitor alles goed ontvangt.   <hr>
 Heb een twitter account. <br>
 <h>
 Maak een accound aan op www.thingsspeak.com <br>
