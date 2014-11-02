@@ -3,7 +3,7 @@
   
   --- MAGIC WORD! ---
   
-  MagicWord v7.1
+  MagicWord v7
   (formally Read-a-Tweet)
   
   Your sparkcore reads Twitter and execute an if/else statement when a matching word has been found!
