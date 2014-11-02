@@ -59,6 +59,7 @@ void readStatus() {
   };
   client.stop();
   Serial.println("Client stopped and ended the build.");
+  Serial.println();
   MagicTwitterWord.trim();
   Serial.println("the Magic Twitter Word is: "+MagicTwitterWord);
   if (MagicTwitterWord == "happycookie"){
