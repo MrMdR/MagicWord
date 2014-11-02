@@ -4,6 +4,8 @@ Magicword
 Your sparkcore reads Twitter and execute an if/else statement when a matching word has been found!
 (acctually... ThingSpeak reads twitter and gives your spark core a kick to do something...)
 
+Make your spark core react to (almost) EVERYTHING with https://ifttt.com!!
+
 How To (NL)
 =========
 Instaleer en configureer je spark core en node.JS 
