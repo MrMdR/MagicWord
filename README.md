@@ -2,7 +2,7 @@ Magicword
 =========
 
 Your sparkcore reads Twitter and execute an if/else statement when a matching word has been found!
-
+(acctually... ThingSpeak reads twitter and gives your spark core a kick to do something...)
 
 How To (NL)
 =========
