@@ -75,7 +75,7 @@ void readStatus() {
   else {
     Serial.println("Didn't find a matching magic word."); //Didn't find the status
     Serial.println("The (not so) magic word I found was: "+MagicTwitterWord);
-    Serial.println("Witch has "+MagicTwitterWord.length()+" letters");
+    Serial.println("number of symbols: "+MagicTwitterWord.length());
   };
 }
 
@@ -89,6 +89,7 @@ void switchLight (int CaseNumber) {
       break;
     default:
       digitalWrite(ledPin, LOW);
+      Serial.println("No case was selected.");
   };
 }
 
