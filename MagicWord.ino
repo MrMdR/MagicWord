@@ -8,7 +8,10 @@
   
   Your sparkcore reads Twitter and execute an if/else statement when a matching word has been found!
   (acctually... ThingSpeak reads twitter and gives your spark core a kick to do something...)
+  
   Make your spark core react to (almost) EVERYTHING with https://ifttt.com and the use of twitter!!
+  Let IFTTT (or an other service, or youself) post sertain keywords on twitter.
+  Thingspeak (and your sparkcore) scouts for those keywords and acts accordingly.
   
   Anouska de Graaf
   Mark de Reijer
